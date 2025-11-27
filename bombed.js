@@ -6,7 +6,7 @@ elements.big_boom = {
     behavior: behaviors.WALL,
 
     onPlace(pixel) {
-        pixel.startTime = pixelTicks; // Timer starten
+        pixel.startTime = pixelTicks;
     },
 
     tick(pixel) {
